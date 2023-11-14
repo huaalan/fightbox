@@ -866,6 +866,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 44.45 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 21af276f-64ed-4266-ad86-e75fe5ccdca6)
+    (property "Reference" "H6" (at 46.99 184.15 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 46.99 186.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_6.5mm" (at 44.45 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 44.45 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "all-button-pcb"
+        (path "/3f74d14b-4e67-47b3-994e-3634c96e2b2b"
+          (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 35.56 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 224fdd05-8077-4611-a46c-1ea38fd96a9c)
@@ -1040,6 +1064,30 @@
       (project "all-button-pcb"
         (path "/3f74d14b-4e67-47b3-994e-3634c96e2b2b"
           (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 44.45 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4c6436f8-7eaf-4fad-97d5-17821d460bfe)
+    (property "Reference" "H4" (at 46.99 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 46.99 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_6.5mm" (at 44.45 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 44.45 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "all-button-pcb"
+        (path "/3f74d14b-4e67-47b3-994e-3634c96e2b2b"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1746,6 +1794,30 @@
       (project "all-button-pcb"
         (path "/3f74d14b-4e67-47b3-994e-3634c96e2b2b"
           (reference "MX16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 22.86 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f64c0ffd-456d-44b1-80d7-a37457672f3a)
+    (property "Reference" "H5" (at 25.4 184.15 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 25.4 186.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_6.5mm" (at 22.86 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 22.86 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "all-button-pcb"
+        (path "/3f74d14b-4e67-47b3-994e-3634c96e2b2b"
+          (reference "H5") (unit 1)
         )
       )
     )
