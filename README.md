@@ -1,5 +1,5 @@
-# Fightbox
-All button fightbox with 11 buttons
+# Fightbox Rev.2
+All button fightbox with 11 buttons with altered button position and extra mounting holes. Extra mounting holes can help minimize the size of the overall case.
 
 # Firmware
 Use https://gp2040-ce.info/ to flash firmware
